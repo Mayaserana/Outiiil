@@ -8,7 +8,7 @@
 	"author" : "Hraesvelg",
 	"permissions" : ["https://*.fourmizzz.fr/*"],
 	"content_scripts" : [{
-		"matches" : ["https://*.fourmizzz.fr/*"],
+		"matches" : ["https://s1.fourmizzz.fr/*", "https://s2.fourmizzz.fr/*", "https://s3.fourmizzz.fr/*", "https://s4.fourmizzz.fr/*"],
 		"css" : ["css/outiiil.css", "css/toasts.css", "css/datatables.css"],
 		"js" : [
 			"js/lib/jquery_3.2.1.js",
